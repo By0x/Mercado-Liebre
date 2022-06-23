@@ -1,0 +1,115 @@
+
+/* GENERAL */
+
+header{
+    background-color: #fbbc02;
+    padding: 5px 5px 20px 5px;
+    display: block;
+}
+
+.logo{
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    display: inline-block;
+    display: flex;
+}
+
+/* NAV */
+
+.op{
+    text-align: left;
+    display: inline-block;
+    margin-left: 1000px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.prod{
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    color: black;
+}
+
+.prod:hover{
+    font-size: 16px;
+}
+
+.acc{
+    display: flex;
+    text-align: right;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    margin-left: 1010px;
+    color: black;
+}
+
+.acc:hover{
+    font-size: 16px;
+}
+
+.log{
+    display: flex;
+    text-align: right;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    margin-left: 10px;
+    color: black;
+}
+
+.log:hover{
+    font-size: 16px;
+}
+
+.bx{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* FOOTER */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.col-4{
+    border-right:solid 1px;
+}
+
+.Redes{
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-size: 16px;
+}
+
+.Redes:hover{
+    font-size: 17px;
+}
